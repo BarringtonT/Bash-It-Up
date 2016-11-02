@@ -1,0 +1,43 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "settings":
+    {
+
+
+        "AdvancedNewFile":
+        {
+            "default_initial": ".",
+            "show_files":true,
+            "show_path":true,
+            "default_root":"current",
+            "default_folder_index": 0,
+            "auto_refresh_sidebar":true,
+            "completion_type":"nix",
+            "use_folder_name":true,
+            "relative_from_current":true,
+            "default_extension":"sh",
+            "shell_input":false,
+
+            "append_extension_on_move": false,
+            "relative_fallback_index": 0,
+            "append_extension_on_copy": true,
+            "current_fallback_to_project": true,
+             // If a warning should be displayed when trying to overwrite an existing file using
+            // the move command.
+            "warn_overwrite_on_move": true,
+            "new_file_default_root": "default_root",
+            "rename_file_default_root": "default_root",
+            "copy_file_default_root": "default_root",
+            "empty_filename_action": false,
+             // When specifying initial input, this boolean will place the cursor prior to the .<content>
+            "cursor_before_extension": false
+
+
+        },
+    }
+}
